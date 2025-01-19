@@ -12,7 +12,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
+    <GoogleOAuthProvider clientId="1063824405797-62l7abibgjrvo087o1127jvcdpqckgvf.apps.googleusercontent.com">
       <TooltipProvider>
         <Toaster />
         <Sonner />
