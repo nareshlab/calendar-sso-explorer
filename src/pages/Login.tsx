@@ -35,9 +35,8 @@ const Login = () => {
             onError={() => {
               console.log('Login Failed');
             }}
-            useOneTap
+            ux_mode="redirect"
             auto_select
-            ux_mode="popup"
           />
         </div>
       </div>
